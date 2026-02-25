@@ -1,0 +1,78 @@
+# ─── GSD Planning Files ───────────────────────
+.agent/
+.gemini/
+.gsd/
+adapters/
+docs/
+scripts/
+GSD-STYLE.md
+PROJECT_RULES.md
+model_capabilities.yaml
+
+# ─── Mac System Files ─────────────────────────
+__MACOSX/
+.DS_Store
+*.DS_Store
+
+# ─── Python ───────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+
+# ─── Virtual Environment ──────────────────────
+venv/
+env/
+.env
+.venv
+ENV/
+
+# ─── PyTorch / Model Files ────────────────────
+*.pt
+*.pth
+*.ckpt
+*.bin
+checkpoints/
+runs/
+outputs/
+
+# ─── Jupyter Notebooks ────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ─── Logs ─────────────────────────────────────
+logs/
+*.log
+tensorboard/
+
+# ─── Data ─────────────────────────────────────
+data/
+datasets/
+*.csv
+*.zip
+*.tar
+*.tar.gz
+
+# ─── IDE ──────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ─── Testing ──────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
